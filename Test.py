@@ -11,16 +11,12 @@ def divide(x, y):
     if y == 0:
         return "Lỗi! Không thể chia cho 0."
     return x / y
-
 print("Chọn phép tính:")
 print("1. Cộng")
 print("2. Trừ")
 print("3. Nhân")
 print("4. Chia")
-
 choice = input("Nhập lựa chọn (1/2/3/4): ")
-
-# Kiểm tra lựa chọn có hợp lệ không
 if choice in ('1', '2', '3', '4'):
     num1 = float(input("Nhập số thứ nhất: "))
     num2 = float(input("Nhập số thứ hai: "))
